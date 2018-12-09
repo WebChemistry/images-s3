@@ -1,0 +1,14 @@
+{
+	"name": "webchemistry/images-s3",
+	"type": "library",
+	"autoload": {
+		"psr-4": {
+			"WebChemistry\\Images\\S3\\": ["src/"]
+		}
+	},
+	"require": {
+		"webchemistry/images": "^4.1.1",
+		"aws/aws-sdk-php": "^3.81",
+		"nette/di": "^2.4 | ^3.0"
+	}
+}
